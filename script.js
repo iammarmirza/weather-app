@@ -46,19 +46,19 @@ async function fetchData() {
         })
 
         if (data.weather[0].main === 'Smoke') {
-            weatherIcon.src = '/images/mist.png'
+            weatherIcon.src = 'https://cdn-icons-png.flaticon.com/512/1197/1197102.png'
         } else if (data.weather[0].main === 'Clouds') {
             weatherIcon.src = 'images/clouds.png'
         } else if (data.weather[0].main === 'Clear') {
-            weatherIcon.src = '/images/clear.png'
+            weatherIcon.src = 'https://icons-for-free.com/iconfiles/png/512/sunny+temperature+weather+icon-1320196637430890623.png'
         } else if (data.weather[0].main === 'Rain') {
-            weatherIcon.src = '/images/rain.png'
+            weatherIcon.src = 'https://static.vecteezy.com/system/resources/previews/024/825/182/non_2x/3d-weather-icon-day-with-rain-free-png.png'
         } else if (data.weather[0].main === 'Drizzle') {
-            weatherIcon.src = '/images/drizzle.png'
+            weatherIcon.src = 'https://cdn-icons-png.flaticon.com/512/4837/4837659.png'
         } else if (data.weather[0].main === 'Mist') {
-            weatherIcon.src = '/images/mist.png'
+            weatherIcon.src = 'https://cdn-icons-png.flaticon.com/512/1197/1197102.png'
         } else if (data.weather[0].main === 'Haze') {
-            weatherIcon.src = '/images/mist.png'
+            weatherIcon.src = 'https://cdn-icons-png.flaticon.com/512/1197/1197102.png'
         } else {
             weatherIcon.src = 'images/clear.png'
         }

@@ -60,7 +60,7 @@ async function fetchData() {
         } else if (data.weather[0].main === 'Haze') {
             weatherIcon.src = 'https://cdn-icons-png.flaticon.com/512/1197/1197102.png'
         } else {
-            weatherIcon.src = 'images/clear.png'
+            weatherIcon.src = 'https://icons-for-free.com/iconfiles/png/512/sunny+temperature+weather+icon-1320196637430890623.png'
         }
 
         if (!response.ok) {

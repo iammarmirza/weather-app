@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .location-container {
-    @apply flex flex-row text-white items-center gap-3 text-3xl mt-8 font-semibold
+    @apply flex flex-row text-white items-center gap-3 text-3xl mt-8 font-semibold mb-10
 }

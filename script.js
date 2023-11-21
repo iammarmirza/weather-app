@@ -48,7 +48,7 @@ async function fetchData() {
         if (data.weather[0].main === 'Smoke') {
             weatherIcon.src = 'https://cdn-icons-png.flaticon.com/512/1197/1197102.png'
         } else if (data.weather[0].main === 'Clouds') {
-            weatherIcon.src = 'images/clouds.png'
+            weatherIcon.src = 'https://cdn-icons-png.flaticon.com/512/7084/7084486.png'
         } else if (data.weather[0].main === 'Clear') {
             weatherIcon.src = 'https://icons-for-free.com/iconfiles/png/512/sunny+temperature+weather+icon-1320196637430890623.png'
         } else if (data.weather[0].main === 'Rain') {
@@ -59,7 +59,10 @@ async function fetchData() {
             weatherIcon.src = 'https://cdn-icons-png.flaticon.com/512/1197/1197102.png'
         } else if (data.weather[0].main === 'Haze') {
             weatherIcon.src = 'https://cdn-icons-png.flaticon.com/512/1197/1197102.png'
-        } else {
+        } else if (data.weather[0].main === 'Snow') {
+            weatherIcon.src = 'https://e7.pngegg.com/pngimages/35/938/png-clipart-snowflakes-snowflakes-thumbnail.png'
+        } 
+        else {
             weatherIcon.src = 'https://icons-for-free.com/iconfiles/png/512/sunny+temperature+weather+icon-1320196637430890623.png'
         }
 
